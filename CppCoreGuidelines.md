@@ -1,6 +1,6 @@
 # <a name="main"></a>C++ Core Guidelines
 
-August 19, 2021
+June 17, 2021
 
 
 Editors:
@@ -404,7 +404,7 @@ Also, we assume that the rules will be refined over time to make them more preci
 A rule is aimed at being simple, rather than carefully phrased to mention every alternative and special case.
 Such information is found in the **Alternative** paragraphs and the [Discussion](#S-discussion) sections.
 If you don't understand a rule or disagree with it, please visit its **Discussion**.
-If you feel that a discussion is missing or incomplete, enter an [Issue](https://github.com/isocpp/DevelopGuidelines/issues)
+If you feel that a discussion is missing or incomplete, enter an [Issue](https://github.com/isocpp/CppCoreGuidelines/issues)
 explaining your concerns and possibly a corresponding PR.
 
 Examples are written to illustrate rules.
@@ -20922,7 +20922,7 @@ A textbook for beginners and relative novices.
 
 This section contains materials that has been useful for presenting the core guidelines and the ideas behind them:
 
-* [Our documents directory](https://github.com/isocpp/DevelopGuidelines/tree/master/docs)
+* [Our documents directory](https://github.com/isocpp/CppCoreGuidelines/tree/master/docs)
 * Stroustrup, Sutter, and Dos Reis: [A brief introduction to C++'s model for type- and resource-safety](http://www.stroustrup.com/resource-model.pdf). A paper with lots of examples.
 * Sergey Zubkov: [a Core Guidelines talk](https://www.youtube.com/watch?v=DyLwdl_6vmU)
 and here are the [slides](http://2017.cppconf.ru/talks/sergey-zubkov). In Russian. 2017.
@@ -21087,7 +21087,7 @@ Accessing through a pointer that doesn't point to anything is a major source of 
 and very hard to avoid in many traditional C or C++ styles of programming.
 For example, a pointer might be uninitialized, the `nullptr`, point beyond the range of an array, or to a deleted object.
 
-[See the current design specification here.](https://github.com/isocpp/DevelopGuidelines/blob/master/docs/Lifetime.pdf)
+[See the current design specification here.](https://github.com/isocpp/CppCoreGuidelines/blob/master/docs/Lifetime.pdf)
 
 Lifetime safety profile summary:
 
@@ -21911,11 +21911,11 @@ The initial primary authors and maintainers are Bjarne Stroustrup and Herb Sutte
 
 ### <a name="Faq-contribute"></a>FAQ.4: How can I contribute?
 
-See [CONTRIBUTING.md](https://github.com/isocpp/DevelopGuidelines/blob/master/CONTRIBUTING.md). We appreciate volunteer help!
+See [CONTRIBUTING.md](https://github.com/isocpp/CppCoreGuidelines/blob/master/CONTRIBUTING.md). We appreciate volunteer help!
 
 ### <a name="Faq-maintainer"></a>FAQ.5: How can I become an editor/maintainer?
 
-By contributing a lot first and having the consistent quality of your contributions recognized. See [CONTRIBUTING.md](https://github.com/isocpp/DevelopGuidelines/blob/master/CONTRIBUTING.md). We appreciate volunteer help!
+By contributing a lot first and having the consistent quality of your contributions recognized. See [CONTRIBUTING.md](https://github.com/isocpp/CppCoreGuidelines/blob/master/CONTRIBUTING.md). We appreciate volunteer help!
 
 ### <a name="Faq-iso"></a>FAQ.6: Have these guidelines been approved by the ISO C++ standards committee? Do they represent the consensus of the committee?
 
@@ -22621,7 +22621,7 @@ that are helpful in writing good C++ code. If a tool is designed specifically to
 
 ### <a name="St-clangtidy"></a>Tools: [Clang-tidy](http://clang.llvm.org/extra/clang-tidy/checks/list.html)
 
-Clang-tidy has a set of rules that specifically enforce the C++ Core Guidelines. These rules are named in the pattern `DevelopGuidelines-*`.
+Clang-tidy has a set of rules that specifically enforce the C++ Core Guidelines. These rules are named in the pattern `cppcoreguidelines-*`.
 
 ### <a name="St-cppcorecheck"></a>Tools: [CppCoreCheck](https://docs.microsoft.com/en-us/visualstudio/code-quality/using-the-cpp-core-guidelines-checkers)
 
@@ -22877,7 +22877,7 @@ Alternatively, we will decide that no change is needed and delete the entry.
   \[Stroustrup14]:    B. Stroustrup. [A Tour of C++](http://www.stroustrup.com/Tour.html).
   Addison Wesley 2014.
 * <a name="Stroustrup15"></a>
-  \[Stroustrup15]:    B. Stroustrup, Herb Sutter, and G. Dos Reis: [A brief introduction to C++'s model for type- and resource-safety](https://github.com/isocpp/DevelopGuidelines/blob/master/docs/Introduction%20to%20type%20and%20resource%20safety.pdf).
+  \[Stroustrup15]:    B. Stroustrup, Herb Sutter, and G. Dos Reis: [A brief introduction to C++'s model for type- and resource-safety](https://github.com/isocpp/CppCoreGuidelines/blob/master/docs/Introduction%20to%20type%20and%20resource%20safety.pdf).
 * <a name="SuttHysl04b"></a>
   \[SuttHysl04b]:     H. Sutter and J. Hyslop. [Collecting Shared Objects](https://web.archive.org/web/20120926011837/http://www.drdobbs.com/collecting-shared-objects/184401839) (C/C++ Users Journal, 22(8), August 2004).
 * <a name="SuttAlex05"></a>
