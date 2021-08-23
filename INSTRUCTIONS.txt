@@ -1,4 +1,4 @@
-How to update the gh-pages at http://isocpp.github.io/DevelopGuidelines/
+How to update the gh-pages at http://comux.github.io/DevelopGuidelines/
 
 1. git checkout master
 2. Update date in DevelopGuidelines.md (and commit & push if updated)
@@ -12,7 +12,7 @@ How to update the gh-pages at http://isocpp.github.io/DevelopGuidelines/
 
 6. git commit -a -m "message"
 7. git push
-8. Refresh the http://isocpp.github.io/DevelopGuidelines/ to verify that the
+8. Refresh the http://comux.github.io/DevelopGuidelines/ to verify that the
 build succeeded. If not, check your email! If the page fails to build, you'll 
 get a mail explaining why. 
 
