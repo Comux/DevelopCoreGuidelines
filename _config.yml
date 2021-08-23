@@ -1,2 +1,2 @@
-include: [DevelopGuidelines.md]
+include: [CppCoreGuidelines.md]
 exclude: [docs, talks, Gemfile, params.json]
