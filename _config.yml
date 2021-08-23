@@ -1,0 +1,2 @@
+include: [DevelopGuidelines.md]
+exclude: [docs, talks, Gemfile, params.json]
