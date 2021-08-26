@@ -1,4 +1,4 @@
-# <a name="main"></a>C++ Core Guidelines
+# <a name="main"></a>Develop Core Guidelines
 
 June 17, 2021
 
